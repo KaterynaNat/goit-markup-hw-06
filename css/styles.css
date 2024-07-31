@@ -838,3 +838,10 @@ textarea:placeholder-shown {
     display: none;
   }
 }
+
+.menu-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  display: none;
+}
