@@ -285,6 +285,11 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/Dark-bg-mob-2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 320px;
+    margin: 0 auto;
   }
 }
 
