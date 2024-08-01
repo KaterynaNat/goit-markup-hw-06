@@ -798,7 +798,11 @@ img {
     flex-direction: row;
     gap: 40px;
   }
-
+  .contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
   .contacts-text {
     font-size: 16px;
   }
@@ -814,6 +818,11 @@ img {
   }
   .contacts-text:hover,
   .contacts-text:focus,
+  .header-list:hover,
+  .header-list:focus,
+  .header-list:current {
+    color: #404bbf;
+  }
   .solutions-img {
     background: #2e2f42;
     padding: 188px 0;
