@@ -294,7 +294,7 @@ img {
   margin-bottom: 72px;
 }
 
-.button {
+.solutions-button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -637,8 +637,8 @@ img {
     max-width: 496px;
     margin-bottom: 36px;
   }
-  .button:hover,
-  .button:focus {
+  .solutions-button:hover,
+  .solutions-button:focus {
     background-color: var(--accent-color);
   }
 
