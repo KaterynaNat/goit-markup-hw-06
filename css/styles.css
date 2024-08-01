@@ -1022,7 +1022,7 @@ img {
   color: #4d5ae5;
 }
 
-.check-icon-container {
+.check-icon {
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -1043,7 +1043,7 @@ img {
   display: block;
 }
 
-.modal-check:checked + .modal-check-lable > .check-icon-container {
+.modal-check:checked + .modal-check-lable > .check-icon {
   border: none;
   fill: #f4f4fd;
   background-color: #404bbf;
