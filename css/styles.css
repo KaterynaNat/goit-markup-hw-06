@@ -819,7 +819,6 @@ img {
     margin-bottom: 16px;
   }
   .contacts-list.nav-list {
-    flex-direction: row;
     gap: 40px;
   }
   .contacts-list {
