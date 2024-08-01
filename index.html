@@ -23,7 +23,7 @@
       <div class="container header-container">
         <nav class="header-navig">
           <a href="./index.html" class="logo logo-web"
-            >Web<span class="logo-studio-head">Studio</span></a
+            >Web<span class="logo-studio-head current">Studio</span></a
           >
           <ul class="nav-list">
             <li>
@@ -58,6 +58,7 @@
         </button>
       </div>
       <div class="mobile-menu">
+        <div class="container mobile-menu-container"></div>
         <button type="button" class="mobile-menu-close">
           <svg class="close-icon" width="8" height="8">
             <use
@@ -65,6 +66,7 @@
             ></use>
           </svg>
         </button>
+        <nav class="modal-mobile-nav">
         <ul class="mobile-menu-list">
           <li class="mobile-menu-item">
             <a class="mobile-menu-link studio" href="./index.html">Studio</a>
@@ -76,10 +78,11 @@
             <a class="mobile-menu-link" href="">Contacts</a>
           </li>
         </ul>
+        </nav>
         <address class="mobile-contact">
-          <ul class="mobile-contacts-list">
+          <ul class="mobile-menu-list mobile-contacts-list">
             <li class="mobile-contacts-item">
-              <a class="mobile-contacts-tel" href="tel:+110001111111"
+              <a class="mobile-contacts-tel current" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -126,6 +129,7 @@
             </a>
           </li>
         </ul>
+      </div>
       </div>
     </header>
     <main class="main">
@@ -583,7 +587,7 @@
       </div>
     </footer>
     <div class="backdrop" data-modal>
-      <div class="modal-container">
+      <div class="modal modal-container">
         <button type="button" class="modal-closed-button" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
@@ -595,7 +599,7 @@
             <label class="modal-form-lable" for="user-name">Name</label>
             <div class="modal-input-field">
               <input
-                class="modal-form-input"
+                class="modal-form-input modal-form-input-desk"
                 type="text"
                 id="user-name"
                 name="user-name"
@@ -656,14 +660,16 @@
               name="user-privacy"
               class="modal-check visually-hidden"
             />
-            <label for="user-privacy" class="modal-check-lable">
+            <label for="user-privacy" class="modal-check-lable modal-check-lable-tab-desk">
               <span class="check-icon-container">
                 <svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>
+               <span class="checkbox-policy">
               I accept the terms and conditions of the
               <a class="modal-form-policy" href="">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="modal-button" type="submit">Send</button>
