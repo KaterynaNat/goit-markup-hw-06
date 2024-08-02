@@ -546,7 +546,7 @@ a {
 .footer-icon {
   display: inline-flex;
   margin-left: 16px;
-  color: #fff
+  fill: #fff;
 }
 
 @media screen and (min-width: 768px) {
