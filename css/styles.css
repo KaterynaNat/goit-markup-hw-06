@@ -573,18 +573,20 @@ a {
   }
 
   .header-list {
-    display: block;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
+  }
+  .current-studio {
+    position: relative;
+    color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .header-list {
-  position: relative;
-  }
-  .header-list.current:after {
+  .current-studio::after {
     content: "";
     position: absolute;
     left: 0;
@@ -594,6 +596,16 @@ a {
     background-color: #404bbf;
     border-radius: 2px;
   }
+  .header-list:hover:after,
+  .header-list:focus:after,
+  .header-list.current:after {
+    opacity: 1;
+  }
+  .header-list:hover,
+.header-list:focus,
+.header-list:current {
+  color: #404bbf;
+}
 
   .address {
     display: flex;
